@@ -1,0 +1,22 @@
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.icon-circle {
+  font-size: 1.7rem;
+  border-radius: 50%;
+  padding: 0.65rem;
+  background-color: #f3f3f3;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.icon-circle:hover {
+  background-color: #223;
+  color: #f59e59;
+}
